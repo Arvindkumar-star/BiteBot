@@ -4,8 +4,11 @@
 
 ### Snap your meal. Get a quick nutrition estimate. Send your summary to Telegram.
 
+**🔗 Live Demo: [bitebot.streamlit.app](https://bitebot.streamlit.app/)**
+
 A lightweight, intelligent Streamlit application that uses **Google Gemini** to estimate calories and macronutrients from meal photos or text descriptions, and delivers conversation summaries straight to your **Telegram Bot**.
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-bitebot.streamlit.app-FF4B4B?logo=streamlit&logoColor=white)](https://bitebot.streamlit.app/)
 ![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/UI-Streamlit-FF4B4B?logo=streamlit&logoColor=white)
 ![Gemini](https://img.shields.io/badge/AI-Google%20Gemini-4285F4?logo=google&logoColor=white)
@@ -24,6 +27,12 @@ A lightweight, intelligent Streamlit application that uses **Google Gemini** to 
 - **🛡️ High Availability & Auto-Failover**: Built-in retry mechanism with model fallback to handle temporary API traffic spikes seamlessly.
 
 > *Disclaimer: Nutritional values are AI estimations for general informational use, not medical or clinical dietary advice.*
+
+---
+
+## 🌐 Live Demo
+
+Try BiteBot without installing anything: **https://bitebot.streamlit.app/**
 
 ---
 
@@ -124,7 +133,7 @@ bitebot/
    GEMINI_API_KEY = "your-gemini-api-key"
    TELEGRAM_BOT_TOKEN = "your-telegram-bot-token"
    ```
-4. Click **Save** and your app will deploy instantly!
+4. Click **Save** and your app will deploy instantly. The live version of this project is running at [bitebot.streamlit.app](https://bitebot.streamlit.app/).
 
 ---
 
